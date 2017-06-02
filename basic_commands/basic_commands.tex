@@ -1,0 +1,63 @@
+%Titelseite einfügen
+\coverpage{}
+
+%Überschriften
+\section{Überschrift 1}
+\subsection{Überschrift 1.1}
+\subsubsection{Überschrift 1.1.1}
+
+%Nummerierte Aufzählung
+\begin{enumerate}
+\item BLAH 1
+\item BLAH 2
+\end{enumerate}
+
+%Aufzählung mit Aufzählungspunkten
+\begin{itemize}
+\item Manuell geschriebener Code vs. generierter Code
+\item Quellcode vs. Konfigurationsdateien
+\item Produktiver Code vs. Test Code
+\end{itemize}
+
+%Fetter Text
+\textbf{Fett}
+
+%Unterstrichener Text
+\underline{Unterstrichen}
+\underline{\underline{Doppelt unterstrichen}}
+
+%Zentriertes Bild
+\begin{figure}[h]
+  \centering
+    \includegraphics[height=8cm]{pictures/06_maven_sketch}
+    \caption{Maven Skizze}
+\end{figure}
+
+%Zentrierter Code
+\begin{center}
+\begin{tabular}{c}
+\lstset{language=xml}
+\begin{lstlisting}
+<!-- Your Code here -->
+\end{lstlisting}
+\end{tabular}
+\end{center}
+
+%Tabelle
+\begin{center}
+\begin{tabular}{|>{\columncolor[gray]{0.8}}c|c|}
+\hline
+\textbf{Submission Date} & 05.05.2017 \\ \hline
+\textbf{Requested by} & Fertigung \\ \hline
+\textbf{Business Owner} & Bernhard Kresina \\ \hline
+\textbf{Contact Info} & bernhard.kresina@magna.com \\ \hline
+\textbf{Projet Name} & Marposs Upgrade \\ \hline
+\textbf{Desired Start Date} & 01.03.2017 \\ \hline
+\end{tabular}
+\end{center}
+
+%Mathematikeingabebereich
+\begin{gather*}
+x_1 = 0.210012*10^{3} = 210.012 \\
+x_2 = 0.671 * 10^{-5} = 0,00000671
+\end{gather*}

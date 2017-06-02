@@ -1,0 +1,57 @@
+\input{preamble}
+\begin{document}
+\coverpage{}
+
+\section{Text}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\section{Tabelle}
+\begin{center}
+\begin{tabular}{|>{\columncolor[gray]{0.8}}c|c|}
+\hline
+\textbf{Submission Date} & 05.05.2017 \\ \hline
+\textbf{Requested by} & Fertigung \\ \hline
+\textbf{Business Owner} & Bernhard Kresina \\ \hline
+\textbf{Contact Info} & bernhard.kresina@magna.com \\ \hline
+\textbf{Projet Name} & Marposs Upgrade \\ \hline
+\textbf{Desired Start Date} & 01.03.2017 \\ \hline
+\end{tabular}
+\end{center}
+
+\section{Aufzählung}
+
+\begin{enumerate}
+\item ... try to get rid of the guide, which is provided by the government. \\
+... try to get rid of the guide, \textcolor{red!80}{who} is provided by the government.
+\item I think this is a common problem in our study. \\
+I think this is a common problem \textcolor{red!80}{of} our degree program.
+\item ... and the dog can life on the street. \\
+... and the dog is able \textcolor{red!80}{to live} on the street.
+\end{enumerate}
+
+\section{Code}
+\begin{center}
+\begin{tabular}{c}
+\lstset{language=Bash}
+\begin{lstlisting}
+#Anzeige der Felder mit man 5 group
+#name:x:GID:additional-users
+chem:x:200:root,williams,wong,jones
+bio:x:300:root,chavez,harvey
+Genome:x:360:root
+\end{lstlisting}
+\end{tabular}
+\end{center}
+
+\newpage
+
+\section{Bild}
+%Zentriertes Bild
+\begin{figure}[h]
+  \centering
+    \includegraphics[height=8cm]{bild}
+    \caption{Ich bin die Bildunterschrift}
+\end{figure}
+
+\end{document}
